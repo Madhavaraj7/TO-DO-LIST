@@ -9,6 +9,7 @@ function Todoitems({ text, id, isComplete, deleteTodo, toggle }) {
       <div
         onClick={() => {
           toggle(id);
+          
         }}
         className="flex flex-1 items-center cursor-pointer"
       >
